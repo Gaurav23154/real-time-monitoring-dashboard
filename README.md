@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📊 Real-Time Monitoring Dashboard
+A commercial-grade, real-time monitoring dashboard built with Next.js, TypeScript, and Tailwind CSS, featuring alert notifications, interactive charts, and a fully responsive, animated interface.
 
-## Getting Started
+Live Link-  https://real-time-monitoring-dashboard-nine.vercel.app/
+🚀 Features
+🔄 Real-Time Metrics: Temperature, network traffic, website visitors, API response time (simulated every 5 seconds)
 
-First, run the development server:
+🟢🟡🔴 Status Indicators: Color-coded thresholds for easy status visualization
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚨 Alerts System: Severity levels, filtering, and resolution functionality
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📈 Interactive Charts: Mini trends and detailed historical views using Recharts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧭 SPA Navigation: Seamless tab switching with Framer Motion animations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📱 Responsive Design: Optimized for mobile, tablet, and desktop
 
-## Learn More
+🧩 No UI Libraries: Fully styled with Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+🛠 Tech Stack
+Framework: Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Language: TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Styling: Tailwind CSS
 
-## Deploy on Vercel
+Charts: Recharts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Animations: Framer Motion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📂 Key Components
+Dashboard View: Real-time metric cards, mini charts, recent alerts
+
+Alerts View: Filterable list, severity tags, resolution controls
+
+Settings View: Notification and alert configuration
+
+⚙️ Usage
+Copy Dashboard.tsx into your Next.js project.
+
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install recharts framer-motion
+Import and use the component in a page.
+
+✅ Requirements Met
+Real-time data updates (mocked)
+
+Color-coded status thresholds
+
+Fully functional SPA navigation
+
+Alerts with filtering and resolution
+
+Accessible, responsive, and animated UI
+
+Single .tsx file implementation
+
+🌟 Bonus Features
+Smooth view transitions
+
+Hover and loading states
+
+Empty state handling
+
+Fully accessible components
+
+
